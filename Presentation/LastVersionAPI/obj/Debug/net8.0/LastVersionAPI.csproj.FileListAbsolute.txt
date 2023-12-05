@@ -143,3 +143,4 @@ C:\Users\CUSTOMAR_WS_003\Desktop\LastVersion.NET\LastVersion\Presentation\LastVe
 C:\Users\CUSTOMAR_WS_003\Desktop\LastVersion.NET\LastVersion\Presentation\LastVersionAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\CUSTOMAR_WS_003\Desktop\LastVersion.NET\LastVersion\Presentation\LastVersionAPI\bin\Debug\net8.0\Infrastructure.dll
 C:\Users\CUSTOMAR_WS_003\Desktop\LastVersion.NET\LastVersion\Presentation\LastVersionAPI\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\CUSTOMAR_WS_003\Desktop\LastVersion.NET\LastVersion\Presentation\LastVersionAPI\obj\Debug\net8.0\LastVersionAPI.sourcelink.json

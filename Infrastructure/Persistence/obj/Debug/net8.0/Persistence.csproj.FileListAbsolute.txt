@@ -17,3 +17,4 @@ C:\Users\CUSTOMAR_WS_003\Desktop\LastVersion.NET\LastVersion\Infrastructure\Pers
 C:\Users\CUSTOMAR_WS_003\Desktop\LastVersion.NET\LastVersion\Infrastructure\Persistence\obj\Debug\net8.0\Persistence.pdb
 C:\Users\CUSTOMAR_WS_003\Desktop\LastVersion.NET\LastVersion\Infrastructure\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
 C:\Users\CUSTOMAR_WS_003\Desktop\LastVersion.NET\LastVersion\Infrastructure\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Users\CUSTOMAR_WS_003\Desktop\LastVersion.NET\LastVersion\Infrastructure\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json

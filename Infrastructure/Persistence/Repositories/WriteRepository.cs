@@ -1,6 +1,7 @@
 ﻿using Application.Repositories;
 using Domain.Entities.Common;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Persistence.Data;
 using System;
 using System.Collections.Generic;
@@ -23,27 +24,45 @@ namespace Persistence.Repositories
 
         public async Task<bool> AddAsync(T model)
         {
-            await Table.AddAsync(model);
+           EntityEntry<T> entityEntry = await Table.AddAsync(model);
+            return entityEntry.State == EntityState.Added;
         }
 
-        public Task<bool> AddRangeAsync(List<T> model)
+        public async Task<bool> AddRangeAsync(List<T> datas)
         {
-            throw new NotImplementedException();
+            await Table.AddRangeAsync(datas);
+            return true;
         }
 
-        public Task<bool> Remove(T model)
+        public bool Remove(T model)
         {
-            throw new NotImplementedException();
+            EntityEntry<T> entityEntry = Table.Remove(model);
+            return entityEntry.State == EntityState.Deleted;
         }
 
-        public Task<bool> Remove(string id)
+        public bool RemoveRange(List<T> datas)
         {
-            throw new NotImplementedException();
+            Table.RemoveRange(datas);
+            return true;
+        }
+        public async Task<bool> RemoveAsync(int id)
+        {
+            T model = await Table.FirstOrDefaultAsync(m => m.Id == id);
+            //my own method
+            return Remove(model);
         }
 
-        public Task<bool> UpdateAsync(T model)
+        
+
+        public bool Update(T model)
         {
-            throw new NotImplementedException();
+            EntityEntry entityEntry = Table.Update(model);
+            return entityEntry.State == EntityState.Modified;
         }
+
+        public async Task<int> SaveAsync() => await _context.SaveChangesAsync();
+        
+
+        
     }
 }

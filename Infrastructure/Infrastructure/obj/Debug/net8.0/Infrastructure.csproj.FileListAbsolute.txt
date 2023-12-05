@@ -15,3 +15,4 @@ C:\Users\CUSTOMAR_WS_003\Desktop\LastVersion.NET\LastVersion\Infrastructure\Infr
 C:\Users\CUSTOMAR_WS_003\Desktop\LastVersion.NET\LastVersion\Infrastructure\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\CUSTOMAR_WS_003\Desktop\LastVersion.NET\LastVersion\Infrastructure\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\CUSTOMAR_WS_003\Desktop\LastVersion.NET\LastVersion\Infrastructure\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\CUSTOMAR_WS_003\Desktop\LastVersion.NET\LastVersion\Infrastructure\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
